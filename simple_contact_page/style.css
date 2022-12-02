@@ -17,11 +17,9 @@ img {
   width: 20rem;
 }
 
-header,form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+p{
+    font-size: 2rem;
+    color: black;
 }
 
 
