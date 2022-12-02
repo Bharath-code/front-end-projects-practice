@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./photo-1559494007-9f5847c49d94.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+}
+
+img {
+  width: 20rem;
+}
+
+header,form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+input {
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  margin: 2rem 0 0 0;
+  font-size: 1.5rem;
+  outline-style: groove;
+}
+
+input[type="submit"] {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-left: 1rem;
+}
