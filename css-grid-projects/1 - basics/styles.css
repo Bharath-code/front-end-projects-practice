@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap");
+
+body {
+  margin: 30px;
+  font-family: "Poppins";
+}
+
+.grid-container {
+  background-color: #eee;
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 200px 300px; /*  align-items works only when grid-template-rows values were given because if there is no heigh it will be self contained cannot move to show the desired result  */
+  gap: 10px;
+  justify-items: stretch; /*strech is default value*/
+  align-items:stretch;
+}
+
+.grid-container > div {
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container > div:nth-child(1) {
+  grid-column: span 2;
+
+}
+.grid-container > div:nth-child(2) {
+  grid-column: span 3;
+}
+.grid-container > div:nth-child(3) {
+  grid-column: span 1;
+}
+.grid-container > div:nth-child(4) {
+  grid-column: 2 / span 4;
+}
+.grid-container > div:nth-child(5) {
+  grid-column: span 3;
+}
+.grid-container > div:nth-child(6) {
+  grid-column: span 3;
+  justify-self: start;
+  align-self: start;
+}
