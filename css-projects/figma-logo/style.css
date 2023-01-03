@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+}
+
+.figma-logo{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.left{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.right{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.orange{
+    background-color:#FB7266;
+}
+
+.purple{
+    background-color: #A061FA;
+}
+
+.blue{
+    background-color: #2EBDFA;
+}
+
+.green{
+    background-color:#00CE84;
+}
+.clip{
+    border-bottom-right-radius: 50px;
+}
